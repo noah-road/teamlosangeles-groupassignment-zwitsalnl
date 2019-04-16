@@ -1,1 +1,41 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.hero{
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+    /* position: absolute; */
+    /* color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: none;
+    font-style: normal;
+    width: 1120px;
+    height: 
+    font-family: Open sans,sans-serif; */
+}
+.hero-img{
+    position: relative;
+    width: 1380px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    
+/* 
+    align-items: center;
+    background-size: cover;
+    min-height: 304px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px 0px;
+} */
+.hero-text{
+    position: relative;
+    z-index: 99;
+
+    /* left: 0;
+    top: 0; */
+    /* z-index: -1; */
+}
