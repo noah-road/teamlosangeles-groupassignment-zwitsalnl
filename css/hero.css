@@ -1,41 +1,181 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
-.hero{
+.hero {
     margin: 0;
     padding: 0;
-    /* position: relative; */
-    /* position: absolute; */
-    /* color: #4a4a4a;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
-    text-transform: none;
-    font-style: normal;
-    width: 1120px;
-    height: 
-    font-family: Open sans,sans-serif; */
 }
-.hero-img{
-    position: relative;
-    width: 1380px;
-    height: 500px;
+
+.hero-img {
+    width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
-    z-index: 1;
-    
-/* 
-    align-items: center;
-    background-size: cover;
-    min-height: 304px;
-    display: flex;
-    box-sizing: border-box;
-    padding: 40px 0px;
-} */
-.hero-text{
-    position: relative;
-    z-index: 99;
+}
 
-    /* left: 0;
-    top: 0; */
-    /* z-index: -1; */
+.hero-text {
+    display:
+        block;
+    float:
+        left;
+    font-family:
+        "Open sans", sans-serif;
+    font-size:
+        14px;
+    font-style:
+        normal;
+    font-weight:
+        400;
+    line-height:
+        21px;
+    margin-left:
+        0px;
+    min-height:
+        1px;
+    position:
+        relative;
+    text-align:
+        left;
+    text-size-adjust:
+        100%;
+    text-transform:
+        none;
+        margin-top: -25rem;
+}
+
+.hero-title {
+    text-transform:
+        none;
+
+    color:
+        rgb(255, 255, 255);
+    display:
+        block;
+    font-family:
+        "Give You Glory", Georgia, serif;
+    font-size:
+        56px;
+    font-style:
+        normal;
+    font-weight:
+        400;
+    height:
+        147.5px;
+    line-height:
+        74.48px;
+    margin-block-end:
+        -9.24px;
+    margin-block-start:
+        0px;
+    margin-bottom:
+        -9.24px;
+    margin-inline-end:
+        0px;
+    margin-inline-start:
+        0px;
+    margin-left:
+        0px;
+    margin-right:
+        0px;
+    margin-top:
+        0px;
+    text-align:
+        left;
+    text-shadow:
+        rgba(0, 0, 0, 0.6) 3px 3px 10px;
+    text-size-adjust:
+        100%;
+
+
+}
+
+.button-primary {
+    align-items:
+        center;
+    background-color:
+        rgb(234, 86, 53);
+    border-bottom-color:
+        rgb(255, 255, 255);
+    border-bottom-left-radius:
+        8px 10px;
+    border-bottom-right-radius:
+        8px 10px;
+    border-bottom-style:
+        none;
+    border-bottom-width:
+        0px;
+    border-image-outset:
+        0px;
+    border-image-repeat:
+        stretch;
+    border-image-slice:
+        100%;
+    border-image-source:
+        none;
+    border-image-width:
+        1;
+    border-left-color:
+        rgb(255, 255, 255);
+    border-left-style:
+        none;
+    border-left-width:
+        0px;
+    border-right-color:
+        rgb(255, 255, 255);
+    border-right-style:
+        none;
+    border-right-width:
+        0px;
+    border-top-color:
+        rgb(255, 255, 255);
+    border-top-left-radius:
+        8px 10px;
+    border-top-right-radius:
+        8px 10px;
+    border-top-style:
+        none;
+    border-top-width:
+        0px;
+    box-sizing:
+        border-box;
+    color:
+        rgb(255, 255, 255);
+    cursor:
+        pointer;
+    display:
+        inline-flex;
+    font-family:
+        "Open sans", sans-serif;
+    font-size:
+        18px;
+    font-style:
+        normal;
+    font-weight:
+        600;
+    height:
+        47.9883px;
+    justify-content:
+        center;
+    letter-spacing:
+        0.39px;
+    line-height:
+        18px;
+    margin-top:
+        32px;
+    padding-bottom:
+        0px;
+    padding-left:
+        28px;
+    padding-right:
+        28px;
+    padding-top:
+        0px;
+    text-align:
+        left;
+    text-decoration-color:
+        rgb(255, 255, 255);
+    text-decoration-line:
+        none;
+    text-decoration-style:
+        solid;
+    text-size-adjust:
+        100%;
 }
