@@ -1,1 +1,23 @@
-/** Scope your css rules in a specific class to prevent merge conflicts! **/
+@import url('https://fonts.google.com/specimen/Give+You+Glory?selection.family=Give+You+Glory');
+
+* {
+    box-sizing: border-box;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 2rem;
+    right: 0;
+    background: hsla(0,0%,90%,.31);
+    color: #ea5635;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-family: 'Give You Glory', cursive, Georgia, serif;
+    font-weight: 700;
+    padding: 1.1rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.scroll:hover {
+    color: #f8c5ba;
+}
