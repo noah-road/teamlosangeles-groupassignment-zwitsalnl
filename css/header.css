@@ -2,7 +2,6 @@
 header {
     background-color: white;
     display: flex;
-    font-size: 15px;
     height: 140px;
     justify-content: space-between;
     position: fixed;
@@ -22,6 +21,7 @@ header {
     align-self: center;
     display: flex;
     flex-grow: 4;
+    font-size: 15px;
     padding-top: 4rem;
 }
 
@@ -45,40 +45,35 @@ header {
     text-decoration: none;
 }
 
-/* Sub-menu container */
-.main-menu .sub-menu {
-    display: none;
-}
-.main-menu li:hover .sub-menu {
+/* Sub-menu * container */
+.main-menu li .sub-menu {
+    background-color: white;
     border-top: solid 1px rgb(184, 184, 184);
     border-bottom: solid 1px rgb(184, 184, 184);
     color: black;
-    display: grid;
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) 1fr;
-    grid-gap: 1rem;
-    justify-items: end;
-    position: fixed;
+    display: none;
     height: 50%;
     width: 100%;
-    z-index: 2;
     left: 0;
     top: 140px;
     padding-top: 40px;
-    text-decoration: none;
+    z-index: 2;
 }
-.main-menu__container .main-menu ul{
-    color: var(--zwitsal-orange);
+.main-menu li:hover .sub-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 12vw) 1fr;
+    justify-items: center;
+    position: fixed;
     list-style: none;
-    text-decoration: none;
 }
 
-.main-menu li a {
-    color: var(--zwitsal-orange);
-}
-
+/* Sub-menu * items */
 .main-menu li:hover ul a {
     color: black;
     text-decoration: none;
+}
+
+.main-menu .sub-menu ul {
+    list-style: none;
+    line-height: 30px; 
 }
