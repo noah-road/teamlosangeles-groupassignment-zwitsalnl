@@ -36,7 +36,7 @@ header {
     list-style: none;
 }
 
-.nav-item {
+.sub-menu {
     color: var(--zwitsal-orange);
     font-weight: 500;
     font-size: 16px;
@@ -45,13 +45,20 @@ header {
     text-decoration: none;
 }
 
-/* Sub-menu * container */
-.main-menu li .sub-menu {
-    background-color: white;
+/* Sub-menu container */
+.main-menu .sub-menu {
+    display: none;
+
+}
+.main-menu li:hover .sub-menu {
     border-top: solid 1px rgb(184, 184, 184);
     border-bottom: solid 1px rgb(184, 184, 184);
-    color: black;
-    display: none;
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr) 1fr;
+    grid-gap: 1rem;
+    justify-items: center;
+    position: fixed;
     height: 50%;
     width: 100%;
     left: 0;
@@ -59,12 +66,16 @@ header {
     padding-top: 40px;
     z-index: 2;
 }
+
+.main-menu__container .main-menu ul {
+    list-style: none;
+}
+
 .main-menu li:hover .sub-menu {
     display: grid;
     grid-template-columns: repeat(3, 12vw) 1fr;
     justify-items: center;
     position: fixed;
-    list-style: none;
 }
 
 /* Sub-menu * items */
